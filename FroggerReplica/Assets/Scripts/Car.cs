@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class Car : MonoBehaviour {
 
@@ -18,5 +20,10 @@ public class Car : MonoBehaviour {
 		Vector2 forward = new Vector2(transform.right.x, transform.right.y);
 		rb.MovePosition(rb.position + forward * Time.fixedDeltaTime * speed);
 	}
+
+    void OnTriggerEnter2D (Collider2D col)
+    {
+        GameControlScript.health -= 1;
+    }
 
 }

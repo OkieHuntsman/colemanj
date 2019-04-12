@@ -27,4 +27,19 @@ public class SceneChangeToMain : MonoBehaviour
             SceneManager.LoadScene("Credits");
         }
     }
+
+   public void ChangeSceneToMain()
+    {
+        SceneManager.LoadScene("Main");
+    }
+
+    public void ChangeSceneToInfo()
+    {
+        SceneManager.LoadScene("Info");
+    }
+
+    public void ChangeSceneToCredits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
 }
