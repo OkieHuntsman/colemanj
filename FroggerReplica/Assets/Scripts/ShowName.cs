@@ -10,7 +10,7 @@ public class ShowName : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        PlayerPrefs.SetString("Text(3)", PlayerPrefs.GetString("username"));
+        PlayerPrefs.SetString("", PlayerPrefs.GetString("username"));
 
         display.text = PlayerPrefs.GetString("username");
 
