@@ -53,7 +53,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Fruit.cs" />
+     <Compile Include="Assets\Scripts\FruitSpawner.cs" />
      <Compile Include="Assets\Scripts\Knife.cs" />
+     <Compile Include="Assets\Scripts\Miss.cs" />
+     <Compile Include="Assets\Scripts\PlayGame.cs" />
+     <Compile Include="Assets\Scripts\RockTosser.cs" />
+     <Compile Include="Assets\Scripts\SceneChanger.cs" />
+     <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\Scripts\ShowName.cs" />
+     <Compile Include="Assets\Scripts\SizeChange.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/BiancaC/Documents/GitHub/colemanj/Assignment7FNinjaR/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
